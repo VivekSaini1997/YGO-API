@@ -5,7 +5,7 @@ import json
 from tokenize import tabsize
 
 def get_cards_from_json():
-    with open('ygo_cards.json') as file:
+    with open('assets/cards.json') as file:
         cards = json.load(file)['data']
     return cards
 
